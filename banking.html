@@ -20,7 +20,7 @@
             <div class="grid grid-cols-3 gap-4  text-white" >
                 <div class="bg-cyan-400 p-8 rounded">
                     <h3 class="text-2xl">Deposite</h3>
-                    <h4 class="text-4xl">$00</h4>
+                    <h4 class="text-4xl"> $ <span id="deposite-total"> 00 </span> </h4>
                 </div>
                 <div class="bg-rose-400 p-8 rounded">
                     <h3 class="text-2xl">Withdraw</h3>
@@ -38,8 +38,8 @@
                 <div class="bg-pink-300		p-8 rounded">
                     <h3 class="text-2xl">Please Deposite</h3>
                     <div>
-                        <input id="deposite-amount" class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="$ you want to deposite">
-                        <button id="deposite-button" class="bg-orange-400 mt-4 p-2 rounded text-white ">Submit</button>
+                        <input id="deposite-input" class="border border-gray-400 rounded block w-3/4 px-2 text-black" type="email" name=" your email" placeholder=" $ you want to deposite">
+                        <button id="deposite-button"  class="bg-orange-400 mt-4 p-2 rounded text-white ">Deposite</button>
         
                     </div>
                 </div>
@@ -47,8 +47,8 @@
                 <div class="bg-rose-300	p-8 rounded">
                     <h3 class="text-2xl">Please widthdraw</h3>
                     <div>
-                        <input id="widthdraw-amount" class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="$ you want to widthdraw">
-                        <button id="widthdraw-button" class="bg-orange-400 mt-4 p-2 rounded text-white ">Submit</button>
+                        <input id="widthdraw-input" class="border border-gray-400 rounded block w-3/4 px-2 text-black" type="email" name=" your email" placeholder="$ you want to widthdraw">
+                        <button id="widthdraw-button" class="bg-orange-400 mt-4 p-2 rounded text-white ">Widthdraw</button>
         
                     </div>
                 </div>
@@ -57,5 +57,7 @@
         </section>
     </main>
 
+
+   <script src="script.js"></script>
 </body>
 </html>

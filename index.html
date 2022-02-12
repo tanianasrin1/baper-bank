@@ -8,6 +8,7 @@
     <!-- tailwind  -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+
 </head>
 <body>
     <header>
@@ -17,14 +18,16 @@
     <main>
         <section class="bg-emerald-200 w-3/4 mx-auto mt-8  p-8">
             <h3 class="text-3xl mb-4">Please login</h3>
-            <form action="">
-                <input class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="your mail" id="">
-                <input class="border border-gray-400 rounded block mt-2 w-3/4 px-2 " type="password" name="" placeholder="password" id="">
+            <div>
+                <input id="user-email" class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="your mail">
+                <input id="user-password" class="border border-gray-400 rounded block mt-2 w-3/4 px-2 " type="password" name="" placeholder="password" id="">
 
-                <button class="bg-orange-400 mt-4 p-2 rounded text-white">Submit</button>
+                <button id="login-submit" class="bg-orange-400 mt-4 p-2 rounded text-white ">Submit</button>
 
-            </form>
+            </div>
         </section>
     </main>
+
+    <script src="bank.js"></script>
 </body>
 </html>

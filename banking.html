@@ -5,8 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banking</title>
+      <!-- tailwind  -->
+      <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h2>bangladesh</h2>
+     
+    <header>
+        <h1 class="text-5xl text-center	 mt-16 ">Let's go some
+            <span class="text-indigo-600 font-semibold">moooney</span> !!! </h1>
+    </header>
+
+    <main class="mx-auto w-3/4">
+        <section class="mt-8">
+            <div class="grid grid-cols-3 gap-4  text-white" >
+                <div class="bg-cyan-400 p-8 rounded">
+                    <h3 class="text-2xl">Deposite</h3>
+                    <h4 class="text-4xl">$00</h4>
+                </div>
+                <div class="bg-rose-400 p-8 rounded">
+                    <h3 class="text-2xl">Withdraw</h3>
+                    <h4 class="text-4xl">$00</h4>
+                </div>
+                <div class="bg-fuchsia-400	 p-8 rounded">
+                    <h3 class="text-2xl">Balance</h3>
+                    <h4 class="text-4xl">$00</h4>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="grid grid-cols-2 gap-4 text-white mt-8">
+                <div class="bg-pink-300		p-8 rounded">
+                    <h3 class="text-2xl">Please Deposite</h3>
+                    <div>
+                        <input id="deposite-amount" class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="$ you want to deposite">
+                        <button id="deposite-button" class="bg-orange-400 mt-4 p-2 rounded text-white ">Submit</button>
+        
+                    </div>
+                </div>
+
+                <div class="bg-rose-300	p-8 rounded">
+                    <h3 class="text-2xl">Please widthdraw</h3>
+                    <div>
+                        <input id="widthdraw-amount" class="border border-gray-400 rounded block w-3/4 px-2" type="email" name=" your email" placeholder="$ you want to widthdraw">
+                        <button id="widthdraw-button" class="bg-orange-400 mt-4 p-2 rounded text-white ">Submit</button>
+        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
